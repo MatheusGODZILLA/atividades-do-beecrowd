@@ -1,0 +1,5 @@
+Esse código é um programa simples que calcula a duração de um jogo. Ele lê dois números inteiros a partir do input padrão, representando a hora de início e a hora de término de um jogo. Em seguida, ele calcula a duração do jogo em horas, levando em conta que um dia tem 24 horas.
+
+Primeiro, ele usa a função readFileSync() do módulo fs para ler o input padrão. Em seguida, ele usa o método split() para dividir o input em um array de duas strings, uma para o valor de início e outra para o valor de fim. Essas strings são convertidas para números inteiros usando o método Number() e a função map(), que percorre cada elemento do array e aplica a função Number().
+
+Depois, o programa verifica se a hora de início é menor que a hora de término. Se for, a duração do jogo é a diferença entre as duas horas. Se não, a duração é a soma das horas restantes do primeiro dia (24 - hora de início) e as horas do segundo dia (hora de término). O resultado é impresso no console usando o método console.log().
