@@ -1,0 +1,1 @@
+O problema URI 1016 pede que o usuário informe a distância em quilômetros que um carro percorre em velocidade constante de 60 km/h e calcule a quantidade de minutos que o carro leva para percorrer essa distância. A solução envolve simplesmente multiplicar a distância por 2, já que a velocidade é constante e igual a 60 km/h, e exibir o resultado em minutos.
