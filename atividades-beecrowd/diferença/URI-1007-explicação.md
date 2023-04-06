@@ -1,0 +1,5 @@
+O problema pede para calcular a diferença entre o produto de dois números inteiros (A e B) e o produto de outros dois números inteiros (C e D). A solução consiste em ler os valores de A, B, C e D da entrada padrão, calcular a diferença e imprimir o resultado na saída padrão.
+
+A linha das entradas usa a sintaxe de desestruturação do ES6 para extrair os valores de A, B, C e D a partir do array retornado pela função 'map()'. Essa função é usada para converter cada linha de entrada, que inicialmente é um string, em um número inteiro usando a função 'parseInt()'. Então, o array resultante contém quatro valores inteiros, que são atribuídos às variáveis A, B, C e D usando a sintaxe de desestruturação.
+
+A sintaxe de desestruturação é uma funcionalidade introduzida no ES6 (ECMAScript 2015) do JavaScript que permite extrair valores de arrays ou objetos e atribuí-los a variáveis individuais.
