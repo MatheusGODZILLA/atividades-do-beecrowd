@@ -1,0 +1,5 @@
+Esse problema tem como objetivo ler 6 valores e mostrar quantos desses valores são positivos, além de mostrar a média dos valores positivos.
+
+Esse código calcula a quantidade de números positivos e a média aritmética dos números positivos inseridos pelo usuário. Ele lê 6 valores a partir da entrada padrão e verifica se cada valor é maior do que zero. Se o valor for positivo, ele é adicionado ao somatório de valores positivos e a quantidade de números positivos é incrementada em 1.
+
+Ao final da leitura dos valores, o código exibe a quantidade de valores positivos inseridos pelo usuário e a média aritmética dos valores positivos com uma casa decimal. Ele usa a sintaxe de literal de modelo em JavaScript para incorporar as variáveis 'numerosPositivos' e 'somaPositivos' em strings para exibi-las na saída.
